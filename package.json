@@ -1,0 +1,25 @@
+{
+  "name": "colorful-one",
+  "displayName": "cfl-one",
+  "description": "colorful one dark theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.76.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "cfl-one",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cfl-one-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trapsixteen/cfl-one.git"
+  }
+}
