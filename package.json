@@ -20,6 +20,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/trapsixteen/cfl-one.git"
+    "url": "git@github.com:trapsixteen/cfl-one.git"
   }
 }
