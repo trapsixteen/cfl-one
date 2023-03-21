@@ -1,8 +1,25 @@
 {
-  "name": "colorful-one",
+  "name": "Colorful-One",
   "displayName": "cfl-one",
-  "description": "colorful one dark theme",
+  "description": "colorful-One dark theme",
   "version": "0.0.1",
+  "publisher": "YamasInvitation",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trapsixteen/cfl-one.git"
+  },
+  "license": "MIT",
+  "icon": "themeIcon.png",
+  "keywords": [
+    "theme",
+    "dark theme",
+    "colorful",
+    "Colorful-One",
+    "Colorful-One Dark Theme",
+    "cfl-one",
+    "Yama",
+    "YamasInvitation"
+  ],
   "engines": {
     "vscode": "^1.76.0"
   },
@@ -17,9 +34,5 @@
         "path": "./themes/cfl-one-color-theme.json"
       }
     ]
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/trapsixteen/cfl-one.git"
   }
 }
