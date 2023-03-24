@@ -4,6 +4,10 @@ All notable changes to the "colorful-one" extension will be documented in this f
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.2.1]
+
+- Some minor changes to README.md
+
 ## [0.2.0]
 
 - Renamed *cfl-one-color-theme.json* to *cfl-one.json*
