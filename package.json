@@ -1,11 +1,11 @@
 {
-  "name": "Colorful-One",
+  "name": "colorful-one",
   "displayName": "cfl-one",
   "description": "colorful-one dark theme",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "publisher": "YamasInvitation",
   "license": "MIT",
-  "icon": "themeIcon.png",
+  "icon": "/img/icon.png",
   "galleryBanner": {
 		"color": "#1d1d1d",
 		"theme": "dark"
@@ -39,7 +39,7 @@
       {
         "label": "cfl-one",
         "uiTheme": "vs-dark",
-        "path": "./themes/cfl-one-color-theme.json"
+        "path": "./themes/cfl-one.json"
       }
     ]
   }
