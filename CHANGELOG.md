@@ -4,6 +4,15 @@ All notable changes to the "colorful-one" extension will be documented in this f
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.2.2]
+
+- Changed foreground text color to light grey for all text except markdown text.
+  - Maybe let me know if you prefer a less flashy green for markdown text as well.
+- Removed red color from wikitext, and finetuned wikitext a little.
+- Added a sidebar border, as I found it difficult to find and move the sidebar.
+- Added new red error color that is more in line with the theme colors.
+- Changed selected text highlighting to a less transparent purple.
+
 ## [0.2.1]
 
 - Some minor changes to README.md

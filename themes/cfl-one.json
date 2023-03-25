@@ -52,16 +52,16 @@
         "editor.findRangeHighlightBackground": "#3a3d4166",
         "editor.findRangeHighlightBorder": "#fafafa00",
         "editor.foldBackground": "#264f784d",
-        "editor.foreground": "#a8ff00",
+        "editor.foreground": "#cfcfcf",
         "editor.hoverHighlightBackground": "#264f7840",
         "editor.inactiveSelectionBackground": "#292929",
         "editor.lineHighlightBackground": "#fafafa0A",
         "editor.lineHighlightBorder": "#282828",
         "editor.rangeHighlightBackground": "#fafafa0b",
         "editor.rangeHighlightBorder": "#fafafa00",
-        "editor.selectionBackground": "#d700ff35",
-        "editor.selectionHighlightBackground": "#ff62a230",
-        "editor.selectionHighlightBorder": "#94b80b99",
+        "editor.selectionBackground": "#d700ff60",
+        "editor.selectionHighlightBackground": "#860bb845",
+        "editor.selectionHighlightBorder": "#a8ff00",
         "editor.wordHighlightBackground": "#575757b8",
         "editor.wordHighlightStrongBackground": "#004972b8",
         "editorBracketMatch.background": "#0064001a",
@@ -209,6 +209,7 @@
         "sideBar.background": "#1d1d1d",
         "sideBar.dropBackground": "#ffd7001a",
         "sideBar.foreground": "#ff62a2",
+        "sideBar.border": "#070707",
         "sideBarSectionHeader.background": "#00000000",
         "sideBarSectionHeader.border": "#cfcfcf33",
         "sideBarSectionHeader.foreground": "#00ffd7",
@@ -257,7 +258,7 @@
         "titleBar.border": "#00000000",
         "titleBar.inactiveBackground": "#29292999",
         "titleBar.inactiveForeground": "#00ffd799",
-        "tree.indentGuidesStroke": "#131313",
+        "tree.indentGuidesStroke": "#070707",
         "walkThrough.embeddedEditorBackground": "#00000050",
         "widget.shadow": "#0000005c"
     },
@@ -265,6 +266,7 @@
         {
             "name": "Color Gold #ffd700",
             "scope": [
+                "entity.name.tag.html",
                 "entity.other.attribute-name.pseudo-class.css",
                 "meta.property-value.css",
                 "variable.parameter.misc.css",
@@ -333,8 +335,9 @@
         {
             "name": "Color Goldenrod #daa520",
             "scope": [
+                "punctuation.definition.tag.begin.html",
+                "punctuation.definition.tag.end.html",
                 "entity.name.tag.local-name.wikitext",
-                "variable.other.wikitext",
                 "storage.type.haskell",
                 "keyword.operator.quantifier.regexp",
                 "support.constant.property.math",
@@ -371,6 +374,8 @@
         {
             "name": "Color Blue #00a8ff",
             "scope": [
+                "punctuation.definition.tag.link.internal.wikitext",
+                "string.quoted.wikitext",
                 "keyword.operator.wikitext",
                 "support.type.property-name.css",
                 "meta.property-name.css",
@@ -410,7 +415,7 @@
             }
         },
         {
-            "name": "Color OffPurple Mid #e34dff",
+            "name": "Color LightPurple #e974ff",
             "scope": [
                 "entity.name.tag.css",
                 "punctuation.definition.string.begin.css",
@@ -486,12 +491,14 @@
                 "constant.regexp.xi"
             ],
             "settings": {
-                "foreground": "#e34dff"
+                "foreground": "#e974ff"
             }
         },
         {
             "name": "Color Pink #ff62a2",
             "scope": [
+                "source.wikitext",
+                "variable.parameter.wikitext",
                 "entity.other.attribute-name.wikitext",
                 "entity.other.attribute-name.pseudo-element.css",
                 "punctuation.definition.delayed.unison",
@@ -558,19 +565,8 @@
             }
         },
         {
-            "name": "Color Ruddy Red #ff0028",
-            "scope": [
-                "variable.parameter.wikitext",
-                "string.quoted.wikitext"
-            ],
-            "settings": {
-                "foreground": "#FF0028"
-            }
-        },
-        {
             "name": "Color Green #a8ff00",
             "scope": [
-                "punctuation.definition.tag.template.wikitext",
                 "punctuation.separator.list.comma.css",
                 "punctuation.terminator.rule.css",
                 "punctuation.separator.period.python",
@@ -664,6 +660,8 @@
         {
             "name": "Color Cyan #00ffd7",
             "scope": [
+                "punctuation.definition.tag.template.wikitext",
+                "variable.other.wikitext",
                 "meta.at-rule.media.header.css",
                 "support.type.vendored.property-name.css",
                 "keyword.operator.css",
@@ -712,7 +710,6 @@
         {   
             "name": "Color Cyan Mid #20daa5",
             "scope": [
-                "punctuation.definition.tag.link.internal.wikitext",
                 "string.quoted.single.css",
                 "string.quoted.double.css",
                 "entity.other.attribute-name.class.css",
@@ -750,13 +747,13 @@
             }
         },
         {
-            "name": "Color Error/Illegal #f44747",
+            "name": "Color Error/Illegal #ff2749",
             "scope": [
                 "token.error-token",
                 "invalid.illegal.non-null-typehinted.php"
             ],
             "settings": {
-                "foreground": "#f44747"
+                "foreground": "#ff2749"
             }
         },
         {
@@ -770,6 +767,24 @@
             ],
             "settings": {
                 "foreground": "#fafafa"
+            }
+        },
+        {
+            "name": "Color Light Grey #cfcfcf",
+            "scope": [
+                "meta.paragraph.markdown"
+            ],
+            "settings": {
+                "foreground": "#a8ff00"
+            }
+        },
+        {
+            "name": "Color Grey #898989",
+            "scope": [
+                "source.ignore"
+            ],
+            "settings": {
+                "foreground": "#898989"
             }
         },
         {
