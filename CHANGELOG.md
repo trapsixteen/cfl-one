@@ -4,6 +4,20 @@ All notable changes to the "colorful-one" extension will be documented in this f
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.2.3]
+
+- Removed the old example images for now as they do not represet the theme colors at all at this point.
+  - I will update this soon so that people at least have a preview.
+  - At least know that, the colors on the icons are the main colors represented by this theme.
+- Swapped quite a few colors and tried to make it overall more enjoyable to read.
+- Converted some images to webp file format for reduced file size.
+- ~~Added new theme example images to show the current look and not the initial.~~ (Was too busy to complete the example images, colors have switched a lot, but all the same colors are still in use.)
+- ~~Updated README.md with more info.~~ (Could not complete this as of yet)
+- Changed some colors that were too dark to see correctly.
+- Added a ton of languages to my testing folder and started adding tokens of the languages I will support with this theme.
+  - Note that theme will have a high focus on CSS, HTML, JavaScript, Go, Lua, Wikitext…
+  - However I will try my best to support all sorts of popular languages, but it will be limited.
+
 ## [0.2.2]
 
 - Changed foreground text color to light grey for all text except markdown text.

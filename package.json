@@ -2,10 +2,10 @@
   "name": "colorful-one",
   "displayName": "cfl-one",
   "description": "colorful-one dark theme",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "publisher": "YamasInvitation",
   "license": "MIT",
-  "icon": "/img/icon.png",
+  "icon": "/img/icon.webp",
   "galleryBanner": {
 		"color": "#1d1d1d",
 		"theme": "dark"
